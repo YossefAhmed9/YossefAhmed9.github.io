@@ -1,3 +1,4 @@
+/* General reset and styling */
 * {
     margin: 0;
     padding: 0;
@@ -45,9 +46,9 @@ header {
 }
 
 .project {
-    margin: 20px 0;
+    margin: 40px 0;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .project h3 {
@@ -57,6 +58,16 @@ header {
 
 .project p {
     font-size: 1.1em;
+}
+
+.project-screenshot {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {

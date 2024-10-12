@@ -6,11 +6,13 @@
     <meta name="description" content="Portfolio of Yossef Ahmed Abd El Raheem, Junior Flutter Developer. Showcasing Flutter projects and skills.">
     <title>Yossef Ahmed - Flutter Developer</title>
     <link rel="stylesheet" href="style.css">
+    <!-- AOS library for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="my-photo-2.jpg" alt="Yossef Ahmed" class="profile-img">
+        <div class="container" data-aos="fade-down">
+            <img src="your-photo.jpg" alt="Yossef Ahmed" class="profile-img">
             <h1>Yossef Ahmed Abd El Raheem</h1>
             <p>Junior Flutter Developer</p>
             <p class="contact">📍 Nasr City, Cairo, Egypt | 📧 yossefahmed209@gmail.com | 📱 +201024922571</p>
@@ -21,35 +23,58 @@
 
     <section class="projects">
         <div class="container">
-            <h2>My Projects</h2>
-            <div class="project">
+            <h2 data-aos="fade-up">My Projects</h2>
+
+            <!-- El-Amal Medical App -->
+            <div class="project" data-aos="fade-right">
                 <h3><a href="https://github.com/YossefAhmed9/El-Amal-Center" target="_blank">El-Amal Medical App</a></h3>
                 <p>A medical app for doctors and patients with over 30 views, where users can browse categories, check doctor ratings, and book appointments.</p>
+                <img src="el-amal-screenshot.png" alt="El-Amal Medical App Screenshot" class="project-screenshot">
             </div>
-            <div class="project">
+
+            <!-- Bookly App -->
+            <div class="project" data-aos="fade-left">
                 <h3><a href="https://github.com/YossefAhmed9/bookly.git" target="_blank">Bookly App</a></h3>
                 <p>An app using MVVM pattern, fetching data from a RESTful API, and managing state with Bloc. Provides a smooth user experience.</p>
+                <img src="bookly-screenshot.png" alt="Bookly App Screenshot" class="project-screenshot">
             </div>
-            <div class="project">
+
+            <!-- Store App -->
+            <div class="project" data-aos="fade-right">
                 <h3><a href="https://github.com/YossefAhmed9/Mentor-Academy-training_store-app.git" target="_blank">Store App</a></h3>
                 <p>An e-commerce app with Firebase Authentication, RESTful API data retrieval using Dio, and Bloc for state management.</p>
+                <img src="store-screenshot.png" alt="Store App Screenshot" class="project-screenshot">
             </div>
-            <div class="project">
+
+            <!-- Chat App -->
+            <div class="project" data-aos="fade-left">
                 <h3><a href="https://github.com/YossefAhmed9/Chat-app.git" target="_blank">Chat App</a></h3>
                 <p>A real-time communication app with Firebase Authentication and Firestore for cloud storage, offering a user-friendly chat experience.</p>
+                <img src="chat-screenshot.png" alt="Chat App Screenshot" class="project-screenshot">
             </div>
-            <div class="project">
+
+            <!-- Do It App -->
+            <div class="project" data-aos="fade-right">
                 <h3><a href="https://github.com/YossefAhmed9/Todo-App.git" target="_blank">Do It App</a></h3>
                 <p>A simple to-do app with SQFlite storage and BLoC state management, published on the Amazon Appstore.</p>
+                <img src="do-it-screenshot.png" alt="Do It App Screenshot" class="project-screenshot">
                 <p><a href="https://shorturl.at/2ovTj" target="_blank">View on Amazon Appstore</a></p>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer data-aos="fade-up">
         <div class="container">
             <p>&copy; 2024 Yossef Ahmed Abd El Raheem. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <!-- AOS animation library script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration (in milliseconds)
+        });
+    </script>
 </body>
 </html>
