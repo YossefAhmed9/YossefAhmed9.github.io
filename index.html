@@ -1,105 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Yossef Ahmed Abd El Raheem, Junior Flutter Developer. Showcasing Flutter projects and skills.">
-    <title>Yossef Ahmed - Flutter Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- AOS library for scroll animations -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Yossef Ahmed Abd El Raheem, Junior Flutter Developer. Showcasing Flutter projects and skills.">
+  <title>Yossef Ahmed | Flutter Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div class="container" data-aos="fade-down">
-            <img src="my-photo-2.jpg" alt="Yossef Ahmed" class="profile-img">
-            <h1>Yossef Ahmed Abd El Raheem</h1>
-            <p>Junior Flutter Developer</p>
-            <p class="contact">📍 Nasr City, Cairo, Egypt | 📧 yossefahmed209@gmail.com | 📱 +201024922571</p>
-            <a href="https://www.linkedin.com/in/yossef-ahmed-abd-el-raheem-flutter-developer" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/YossefAhmed9" target="_blank">GitHub</a>
+  <header>
+    <div class="overlay"></div>
+    <div class="container" data-aos="fade-down">
+      <img src="my-photo-2.jpg" alt="Yossef Ahmed" class="profile-img">
+      <h1>Yossef Ahmed Abd El Raheem</h1>
+      <p class="subtitle">Junior Flutter Developer</p>
+      <p class="contact">
+        📍 Nasr City, Cairo, Egypt | 📧 yossefahmed209@gmail.com | 📱 +201024922571
+      </p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/yossef-ahmed-abd-el-raheem-flutter-developer" target="_blank" class="btn">LinkedIn</a>
+        <a href="https://github.com/YossefAhmed9" target="_blank" class="btn">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="projects">
+    <div class="container">
+      <h2 data-aos="fade-up">💻 My Projects</h2>
+
+      <div class="project" data-aos="fade-right">
+        <h3><a href="https://github.com/YossefAhmed9/El-Amal-Center" target="_blank">El-Amal Medical App</a></h3>
+        <p>A medical app for doctors and patients with over 20 views, where users can browse categories, check doctor ratings, and book appointments.</p>
+        <div class="project-gallery">
+          <img src="markaz elamal/elamal-screenshot (1).jpg" alt="El-Amal Medical App" class="project-screenshot">
+          <img src="markaz elamal/elamal-screenshot (2).jpg" alt="El-Amal Medical App" class="project-screenshot">
+          <img src="markaz elamal/elamal-screenshot (3).jpg" alt="El-Amal Medical App" class="project-screenshot">
         </div>
-    </header>
+      </div>
 
-    <section class="projects">
-        <div class="container">
-            <h2 data-aos="fade-up">My Projects</h2>
-
-            <!-- El-Amal Medical App -->
-            <div class="project" data-aos="fade-right">
-                <h3><a href="https://github.com/YossefAhmed9/El-Amal-Center" target="_blank">El-Amal Medical App</a></h3>
-                <p>A medical app for doctors and patients with over 20 views, where users can browse categories, check doctor ratings, and book appointments.</p>
-                <img src="markaz elamal/elamal-screenshot (1).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (2).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (3).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (4).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (5).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (6).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (7).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (8).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (9).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (10).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (11).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (12).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (13).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="markaz elamal/elamal-screenshot (14).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-
-            </div>
-
-            <!-- Bookly App -->
-            <div class="project" data-aos="fade-left">
-                <h3><a href="https://github.com/YossefAhmed9/bookly.git" target="_blank">Bookly App</a></h3>
-                <p>An app using MVVM pattern, fetching data from a RESTful API, and managing state with Bloc. Provides a smooth user experience.</p>
-                <img src="bookly/img (2).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="bookly/img (3).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-                <img src="bookly/img (1).jpg" alt="El-Amal Medical App Screenshot" class="project-screenshot">
-
-            </div>
-            <!-- Al Amir Academy -->
-            <div class="project" data-aos="fade-right">
-                <h3><a href="https://github.com/YossefAhmed9/Todo-App.git" target="_blank">Al Amir Academy</a></h3>
-                <p> Developed an e-learning app to help al Azhar university students.
-                    Used firebase as backend for authentication and storing students’ data.
-                    Implemented Bloc pattern to ensure proper state management, improving applications’ overall performance by 15%
-                    Implemented security measures, including blocking screenshots and unique codes, to prevent data leaks and ensure secure lecture access.
-                    Equips students with easy access to lectures and knowledge-testing features, supporting structured self-paced learning.
-                    Enabling firebase notifications to inform the student when a new lecture is uploaded.</p>
-                <img src="alamir/img (5).jpg" alt="Al Amir Academy- E-learning App Screenshot" class="project-screenshot">
-                <img src="alamir/img (1).jpg" alt="Al Amir Academy- E-learning App App Screenshot" class="project-screenshot">
-                <img src="alamir/img (2).jpg" alt="Al Amir Academy- E-learning App App Screenshot" class="project-screenshot">
-                <img src="alamir/img (3).jpg" alt="Al Amir Academy- E-learning App App Screenshot" class="project-screenshot">
-                <img src="alamir/img (4).jpg" alt="Al Amir Academy- E-learning App App Screenshot" class="project-screenshot">
-                <img src="alamir/img (6).jpg" alt="Al Amir Academy- E-learning App App Screenshot" class="project-screenshot">
-
-            </div>
-             <!-- Store App -->
-             <div class="project" data-aos="fade-right">
-                <h3><a href="https://github.com/YossefAhmed9/Mentor-Academy-training_store-app.git" target="_blank">Store App</a></h3>
-                <p>An e-commerce app with Firebase Authentication, RESTful API data retrieval using Dio, and Bloc for state management.</p>
-                <img src="store-screenshot.png" alt="Store App Screenshot" class="project-screenshot">
-            </div>
-
-            <!-- Chat App -->
-            <div class="project" data-aos="fade-left">
-                <h3><a href="https://github.com/YossefAhmed9/Chat-app.git" target="_blank">Chat App</a></h3>
-                <p>A real-time communication app with Firebase Authentication and Firestore for cloud storage, offering a user-friendly chat experience.</p>
-                <img src="chat-screenshot.png" alt="Chat App Screenshot" class="project-screenshot">
-            </div>
+      <div class="project" data-aos="fade-left">
+        <h3><a href="https://github.com/YossefAhmed9/bookly.git" target="_blank">Bookly App</a></h3>
+        <p>An app using MVVM pattern, fetching data from a RESTful API, and managing state with Bloc. Provides a smooth user experience.</p>
+        <div class="project-gallery">
+          <img src="bookly/img (1).jpg" class="project-screenshot">
+          <img src="bookly/img (2).jpg" class="project-screenshot">
+          <img src="bookly/img (3).jpg" class="project-screenshot">
         </div>
-    </section>
+      </div>
 
-    <footer data-aos="fade-up">
-        <div class="container">
-            <p>&copy; 2024 Yossef Ahmed Abd El Raheem. All Rights Reserved.</p>
+      <div class="project" data-aos="fade-right">
+        <h3><a href="https://github.com/YossefAhmed9/Todo-App.git" target="_blank">Al Amir Academy</a></h3>
+        <p>Developed an e-learning app to help Al-Azhar university students. Used Firebase for authentication and storage, implemented Bloc pattern, and integrated security measures for lecture access.</p>
+        <div class="project-gallery">
+          <img src="alamir/img (1).jpg" class="project-screenshot">
+          <img src="alamir/img (3).jpg" class="project-screenshot">
+          <img src="alamir/img (4).jpg" class="project-screenshot">
         </div>
-    </footer>
+      </div>
 
-    <!-- AOS animation library script -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000, // Animation duration (in milliseconds)
-        });
-    </script>
+      <div class="project" data-aos="fade-left">
+        <h3><a href="https://github.com/YossefAhmed9/Mentor-Academy-training_store-app.git" target="_blank">Store App</a></h3>
+        <p>An e-commerce app using Firebase Authentication, Dio for API calls, and Bloc for efficient state management.</p>
+        <div class="project-gallery">
+          <img src="store-screenshot.png" alt="Store App" class="project-screenshot">
+        </div>
+      </div>
+
+      <div class="project" data-aos="fade-up">
+        <h3><a href="https://github.com/YossefAhmed9/Chat-app.git" target="_blank">Chat App</a></h3>
+        <p>A real-time chat application built with Firebase Authentication and Firestore for cloud storage, featuring an intuitive interface and smooth performance.</p>
+        <div class="project-gallery">
+          <img src="chat-screenshot.png" alt="Chat App" class="project-screenshot">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Yossef Ahmed Abd El Raheem. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
 </body>
 </html>
