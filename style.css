@@ -149,9 +149,14 @@ h1 {
    SCREENSHOT FIX → EXACT SIZE 300×500
    ================================ */
 .project-screenshot {
-  width: 300px;          /* Fixed width */
-  height: 500px;         /* Fixed height */
-  object-fit: cover;     /* Fills area with NO bars */
+
+  /*
+  /* width: 300px;          /* Fixed width */
+ /* height: 500px;         /* Fixed height */
+  /*object-fit: cover;     /* Fills area with NO bars */
+
+  
+
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -162,13 +167,6 @@ h1 {
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
 }
 
-@media (max-width: 768px) {
-  .project-screenshot {
-    width: 250px;
-    height: 420px;
-    object-fit: cover;
-  }
-}
 
 /* FOOTER */
 footer {
