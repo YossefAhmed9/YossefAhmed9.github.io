@@ -145,8 +145,13 @@ h1 {
   gap: 15px;
 }
 
+/* ================================
+   SCREENSHOT FIX → EXACT SIZE 300×500
+   ================================ */
 .project-screenshot {
-  width: 30%;
+  width: 300px;          /* Fixed width */
+  height: 500px;         /* Fixed height */
+  object-fit: cover;     /* Fills area with NO bars */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -159,7 +164,9 @@ h1 {
 
 @media (max-width: 768px) {
   .project-screenshot {
-    width: 80%;
+    width: 250px;
+    height: 420px;
+    object-fit: cover;
   }
 }
 
